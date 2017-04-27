@@ -1,14 +1,14 @@
-import React from 'react';
-import AddTodo from '../containers/AddTodo';
-import VisibleTodos from '../containers/VisibleTodos';
-import Footer from './Footer';
+import React from 'react'
+import Footer from './Footer'
+import AddTodo from '../containers/AddTodo'
+import VisibleTodoList from '../containers/VisibleTodoList'
 
 const App = () => (
   <div>
     <AddTodo />
-    <VisibleTodos />
+    <VisibleTodoList />
     <Footer />
   </div>
-);
+)
 
-export default App;
+export default App
